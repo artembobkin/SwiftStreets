@@ -1,0 +1,39 @@
+The test data of SwiftStreets, and its terms. Files ending in `.lzma` are
+LZMA (xz) compressed, as Foundation's `NSData.compressed(using: .lzma)`
+writes them. Map data (c) OpenStreetMap contributors, ODbL 1.0
+(https://www.openstreetmap.org/copyright).
+
+osm2streets/
+    The 29 XML test cases of osm2streets (https://github.com/a-b-street/osm2streets,
+    revision fc119c4, tests/src/): `input.osm`, `boundary.json`, `test.json`
+    and the committed `geometry.json` of each, unchanged but compressed.
+    osm2streets is under the Apache License 2.0 (the `LICENSE` beside them).
+    The OSM extracts in them are (c) OpenStreetMap contributors, ODbL 1.0.
+    The case `frederiksted` (PBF input) is left out: the port reads XML only.
+
+moscow/
+    OpenStreetMap extracts of central Moscow, fetched from Overpass on
+    2026-10-23 and 2026-10-24 for five z15 tiles (15/19808/10242,
+    15/19809/10242, 15/19808/10243, 15/19809/10243, 15/19810/10243: each
+    tile and a 100 m margin) and for the 2x2 block of the first four (their data merged),
+    written as OSM XML by `Parity/OverpassXML.swift`. The block's
+    `boundary.json` is the clip its roads were reconstructed with.
+    (c) OpenStreetMap contributors, ODbL 1.0.
+
+rust/
+    The results of the Rust osm2streets-cli (osm2streets fc119c4, see
+    Docs/PortingParity.md) on the inputs above and on the synthetic ways of
+    `Parity/SyntheticWays.swift`, stored as digests by `FreezeOracle`. They
+    are derived from the OSM data above: (c) OpenStreetMap contributors, ODbL 1.0.
+
+earcutr/
+    The fixtures (`tests/fixtures/`) and the recorded test outputs
+    (`viz/testoutput/`) of the earcutr 0.4.3 crate
+    (https://github.com/frewsxcv/earcutr), under the ISC License (the
+    `LICENSE` beside them).
+
+country-boundaries/
+    The boundary rasters of the country-boundaries 1.2.0 crate
+    (https://github.com/westnordost/country-boundaries-rust): the code is
+    under the Apache License 2.0 (the `LICENSE` beside them), the data is
+    derived from OpenStreetMap, (c) OpenStreetMap contributors, ODbL 1.0.

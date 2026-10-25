@@ -1,0 +1,51 @@
+{
+  "frozen" : "2026-10-25",
+  "oracle" : "osm2streets-cli, osm2streets fc119c4",
+  "rustResults" : [
+    {
+      "intersection_markings" : {
+        "bytes" : 43003,
+        "features" : 59,
+        "sha256" : "41fa065743f45187a03e4150cd67f0cdea4c56359ce18688decbe74c84b24278"
+      },
+      "lane_markings" : {
+        "bytes" : 29208571,
+        "features" : 29442,
+        "sha256" : "8024081b13b3106e71fd86d09189a3b7695fb0fcc9bfc83786d1762d9147a47a"
+      },
+      "lanes" : {
+        "bytes" : 5824588,
+        "features" : 2699,
+        "sha256" : "9d3ab3de353f8660520176ae4de015f05f14b33dd0116f286bc12eefbf441a7d"
+      },
+      "plain" : {
+        "bytes" : 3689287,
+        "features" : 3937,
+        "sha256" : "8f30cb01ae2a59550e8f3a6bae45fb0b553435ce03a5649d10032f5f625b160e"
+      }
+    },
+    {
+      "intersection_markings" : {
+        "bytes" : 43003,
+        "features" : 59,
+        "sha256" : "41fa065743f45187a03e4150cd67f0cdea4c56359ce18688decbe74c84b24278"
+      },
+      "lane_markings" : {
+        "bytes" : 29208572,
+        "features" : 29442,
+        "sha256" : "ee0a3279c3eedc30ee08f1f96b4b7daa0e853bd5f65a12b4d03eee95c9e45904"
+      },
+      "lanes" : {
+        "bytes" : 5824588,
+        "features" : 2699,
+        "sha256" : "9d3ab3de353f8660520176ae4de015f05f14b33dd0116f286bc12eefbf441a7d"
+      },
+      "plain" : {
+        "bytes" : 3689287,
+        "features" : 3937,
+        "sha256" : "8f30cb01ae2a59550e8f3a6bae45fb0b553435ce03a5649d10032f5f625b160e"
+      }
+    }
+  ],
+  "rustRuns" : 200
+}

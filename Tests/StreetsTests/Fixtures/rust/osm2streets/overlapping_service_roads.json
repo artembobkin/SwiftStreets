@@ -1,0 +1,29 @@
+{
+  "frozen" : "2026-10-25",
+  "oracle" : "osm2streets-cli, osm2streets fc119c4",
+  "rustResults" : [
+    {
+      "intersection_markings" : {
+        "bytes" : 2409,
+        "features" : 3,
+        "sha256" : "524b6d0af72339660b1d6a78e5b766537554d5e3663167666133b60897062e6c"
+      },
+      "lane_markings" : {
+        "bytes" : 353071,
+        "features" : 264,
+        "sha256" : "7768f6cbd2247f40e348c9e4056ed53d7f5f49e2505606321d426361d5797cab"
+      },
+      "lanes" : {
+        "bytes" : 82480,
+        "features" : 46,
+        "sha256" : "997e3753c511cd2d7fc6c0b9486fce6b5df4931704dca0932e7c05112a9153ba"
+      },
+      "plain" : {
+        "bytes" : 24829,
+        "features" : 24,
+        "sha256" : "ab7c2bbc62ed6d14722ae22e5f28e5a538986208d77f555760ab7027fc7c5395"
+      }
+    }
+  ],
+  "rustRuns" : 16
+}
